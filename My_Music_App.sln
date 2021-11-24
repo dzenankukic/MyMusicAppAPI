@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMusicAppAPI", "MyMusicAppAPI\MyMusicAppAPI.csproj", "{FE086EAC-22B5-488B-A524-002F39DC5D68}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1B30551A-7EFE-47D6-9AD0-9DF3D078166E} = {1B30551A-7EFE-47D6-9AD0-9DF3D078166E}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMusicAppData", "MyMusicAppData\MyMusicAppData.csproj", "{1B30551A-7EFE-47D6-9AD0-9DF3D078166E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE086EAC-22B5-488B-A524-002F39DC5D68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE086EAC-22B5-488B-A524-002F39DC5D68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE086EAC-22B5-488B-A524-002F39DC5D68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE086EAC-22B5-488B-A524-002F39DC5D68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B30551A-7EFE-47D6-9AD0-9DF3D078166E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B30551A-7EFE-47D6-9AD0-9DF3D078166E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B30551A-7EFE-47D6-9AD0-9DF3D078166E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B30551A-7EFE-47D6-9AD0-9DF3D078166E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5527314-EE3B-40E7-82CC-4450EAE8B336}
+	EndGlobalSection
+EndGlobal
